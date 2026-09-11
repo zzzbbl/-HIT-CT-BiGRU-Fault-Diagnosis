@@ -72,8 +72,7 @@ The HIT aero-engine inter-shaft bearing dataset can be obtained from:
 
 - Dataset page: <https://github.com/HouLeiHIT/HIT-dataset.>
 
-Please follow the dataset provider's license and access terms. This repository
-does not redistribute the raw dataset or processed tensor files.
+Please follow the dataset provider's license and access terms. 
 
 This repository does not redistribute the HIT dataset or derived tensor files.
 Prepare the raw HIT arrays separately with the following expected filenames:
