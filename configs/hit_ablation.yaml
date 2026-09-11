@@ -1,0 +1,28 @@
+seed: 42
+device: auto
+
+data:
+  data_dir: data/hit_full
+  class_names:
+    - Healthy
+    - Inner Fault
+    - Outer Fault
+
+model:
+  name: ct_bigru
+  input_channels: 4
+  num_classes: 3
+
+training:
+  output_dir: outputs/ablation
+  batch_size: 16
+  epochs: 50
+  min_epochs: 50
+  early_stop_patience: 20
+  augment_train: true
+  class_weight: true
+  optimizer:
+    name: adam
+    lr: 0.001
+    weight_decay: 0.0
+

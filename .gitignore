@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and generated artifacts
+data/raw/
+data/processed/
+data/hit_full/
+data/cwru/
+outputs/
+results/
+runs/
+checkpoints/
+figures/generated/
+
+# Large research files
+*.npy
+*.npz
+*.mat
+*.csv
+*.pth
+*.pt
+*.pkl
+*.joblib
+
+# Keep small documentation placeholders
+!data/README.md
+!docs/*.md
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+

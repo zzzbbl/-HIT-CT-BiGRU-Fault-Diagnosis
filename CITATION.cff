@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: HIT CT-BiGRU Fault Diagnosis
+message: If you use this code, please cite the related paper.
+type: software
+authors:
+  - family-names: Wang
+    given-names: Yang
+  - family-names: Zhang
+    given-names: Boliang
+year: 2026
+license: MIT
+preferred-citation:
+  type: article
+  title: A fault diagnosis method for aero-engine inter-shaft bearings based on 1DCNN-Transformer-BiGRU
+  authors:
+    - family-names: Wang
+      given-names: Yang
+    - family-names: Zhang
+      given-names: Boliang
+  journal: Scientific Reports
+  year: 2026
+  doi: 10.1038/s41598-026-61710-4
+  url: https://doi.org/10.1038/s41598-026-61710-4

@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hit-ct-bigru-fault-diagnosis"
+version = "0.1.0"
+description = "CT-BiGRU fault diagnosis code for aero-engine inter-shaft bearing vibration signals"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+  {name = "Boliang Zhang"}
+]
+dependencies = [
+  "numpy",
+  "scipy",
+  "pandas",
+  "scikit-learn",
+  "matplotlib",
+  "seaborn",
+  "tqdm",
+  "joblib",
+  "PyYAML",
+  "torch"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
