@@ -70,7 +70,7 @@ the official PyTorch installation guide.
 ## Dataset Preparation
 The HIT aero-engine inter-shaft bearing dataset can be obtained from:
 
-- Dataset page: <https://github. com/HouLeiHIT/HIT-dataset.>
+- Dataset page: <https://github.com/HouLeiHIT/HIT-dataset.>
 
 Please follow the dataset provider's license and access terms. This repository
 does not redistribute the raw dataset or processed tensor files.
